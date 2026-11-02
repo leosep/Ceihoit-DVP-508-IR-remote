@@ -1,4 +1,4 @@
-# Controlling a no-name DVD player over IR from a Raspberry Pi
+# Controlling a Ceihoit DVP-508 DVD player over IR from a Raspberry Pi
 
 A complete, reproducible walk-through of how a Ceihoit **DVP-508** mini DVD player
 was made controllable from a Raspberry Pi **without ever having its remote**, and
@@ -122,3 +122,4 @@ Each is expanded in `docs/06-troubleshooting.md`.
 ## License
 
 Public domain / CC0. Do what you like with it.
+
