@@ -1,0 +1,14 @@
+# runtime output
+sweep.log
+*.log
+*.csv.bak
+/tmp/
+
+# python
+__pycache__/
+*.pyc
+
+# editors
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,24 @@
+code,key,protocol,address,command,confidence,notes
+0x5203,next_track,nec,0x52,0x03,high,moves the track list forward
+0x5204,eject,nec,0x52,0x04,high,toggles tray; 5 clean cycles with a single frame
+0x5208,audio_channel,nec,0x52,0x08,medium,cycles STEREO / MONO / L / R
+0x520C,play_pause,nec,0x52,0x0C,high,toggle: stops when playing / resumes when paused
+0x520D,previous_track,nec,0x52,0x0D,high,three frames jumped two songs
+0x5215,next_track_alt,nec,0x52,0x15,high,same visible effect as 0x5203
+0x5216,volume_up,nec,0x52,0x16,high,one OSD segment per press; reaches max
+0x5217,menu,nec,0x52,0x17,high,opens the settings list
+0x5219,stop,nec,0x52,0x19,high,
+0x521A,setup,nec,0x52,0x1A,high,opens the settings list; not a toggle
+0x521C,program_menu,nec,0x52,0x1C,high,toggles the all-select/file-list menu; swallows other keys while open
+0x5223,repeat_folder,nec,0x52,0x23,medium,"repeat folder" on screen
+0x5224,source,nec,0x52,0x24,high,"not find device" - tries USB/card
+0x5225,power,nec,0x52,0x25,high,toggles standby/on; one frame = one toggle
+0x5227,play,nec,0x52,0x27,high,second play key
+0x523A,mute_toggle,nec,0x52,0x3A,high,most reliable key on the player
+0x523E,mute_off,nec,0x52,0x3E,medium,clears the mute icon; often ignored
+0x5243,repeat_single,nec,0x52,0x43,high,display shows SINGLE
+0x5244,source_alt,nec,0x52,0x44,high,same as 0x5224
+0x5245,standby,nec,0x52,0x45,high,drops to red LED
+0x5257,previous_track_alt,nec,0x52,0x57,high,duplicate of 0x520D
+0x525A,mute,nec,0x52,0x5A,medium,+0x20 twin of 0x523A
+0x525E,volume_down,nec,0x52,0x5E,high,3 presses = clear drop; 10 = nearly bottom
